@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Dark Fantasy Theme */
+body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Main Container */
+.flexbox-full-container {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 50px;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid #444;
+}
+
+/* Interactive Live2D Character (Placeholder) */
+.InteractiveIcon_Left {
+    width: 120px;
+    height: 120px;
+    background: url('/image.png') no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/* Header Text */
+.HeaderParagraph_Right {
+    text-align: left;
+    max-width: 60%;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+/* Social Links */
+.flexbox-socialNav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.flexbox-socialNav ul li {
+    margin: 0 10px;
+}
+
+.flexbox-socialNav ul li a {
+    color: #ffcc00;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.flexbox-socialNav ul li a:hover {
+    color: #ff9900;
+}

@@ -91,3 +91,18 @@ nav ul li a:hover {
 .flexbox-socialNav ul li a:hover {
     color: #ff9900;
 }
+
+.flexbox-top-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust space between the icon and text as needed */
+}
+
+.InteractiveIcon_Left {
+    width: 120px;
+    height: 120px;
+    background: url(assets/Me.irl.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 3px solid #ffcc00;
+}
